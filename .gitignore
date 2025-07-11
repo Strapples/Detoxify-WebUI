@@ -1,0 +1,49 @@
+# 🐍 Python cache & venvs
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+ENV/
+env/
+*.pyo
+
+# VSCode metadata
+.vscode/
+*.code-workspace
+
+# 🔒 OS junk
+.DS_Store
+Thumbs.db
+
+# 🧪 Test outputs
+*.log
+*.csv
+*.json
+*.out
+*.tmp
+results.csv
+
+# 🐳 Docker
+*.tar
+*.img
+docker-compose.override.yml
+
+# 📦 Dependency artifacts
+pip-wheel-metadata/
+*.lock
+*.bak
+*.old
+
+# 🧪 Jupyter/IPython (if used later)
+.ipynb_checkpoints/
+*.ipynb
+
+# 🌍 HuggingFace/Transformers cache
+~/.cache/huggingface
+~/.huggingface
