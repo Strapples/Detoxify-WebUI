@@ -14,6 +14,15 @@
 
 ## News & Updates
 
+--
+
+CLI ONLY BRANCH - 
+
+Download it
+
+Install prerequisites and Venv
+Activate the venv and run python run_prediction.py --input tests/test.csv --model_name original --save_to results.csv on a CSV file.
+
 ### 22-10-2021: New improved multilingual model & standardised class names
 -  Updated the `multilingual` model weights used by Detoxify with a model trained on the translated data from the 2nd Jigsaw challenge (as well as the 1st). This model has also been trained to minimise bias and now returns the same categories as the `unbiased` model. New best AUC score on the test set: 92.11 (89.71 before).
 - All detoxify models now return consistent class names (e.g. "identity_attack" replaces "identity_hate" in the `original` model to match the `unbiased` classes).
